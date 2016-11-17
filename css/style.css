@@ -90,7 +90,10 @@ header {
   header #menu {
     cursor: pointer; }
   header .sp_menu_toggle {
-    display: none; }
+    display: none;
+    list-style: none; }
+    header .sp_menu_toggle a {
+      text-decoration: none; }
 
 #sidebar .side_title {
   background-color: #887f69;

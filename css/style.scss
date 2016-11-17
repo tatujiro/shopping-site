@@ -124,6 +124,10 @@ header{
     }
     .sp_menu_toggle {
       display: none;
+      list-style: none;
+      a{
+          text-decoration: none; 
+      }
     }
 }//header
 

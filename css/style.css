@@ -90,10 +90,20 @@ header {
   header #menu {
     cursor: pointer; }
   header .sp_menu_toggle {
+    padding-left: 40px;
     display: none;
     list-style: none; }
+    header .sp_menu_toggle li {
+      margin-bottom: 1px; }
     header .sp_menu_toggle a {
-      text-decoration: none; }
+      display: block;
+      width: 200px;
+      color: #887f69;
+      background-color: #fff;
+      text-decoration: none;
+      text-align: center;
+      padding: 5px;
+      font-weight: bold; }
 
 #sidebar .side_title {
   background-color: #887f69;
@@ -167,6 +177,9 @@ header {
     margin-bottom: 10px; }
     #sidebar .shop_info .side_shop img {
       margin-top: 10px; }
+
+#new_items {
+  clear: both; }
 
 #popular_items .popular_items_contents {
   display: flex;

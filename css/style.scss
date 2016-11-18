@@ -123,10 +123,22 @@ header{
       cursor: pointer;
     }
     .sp_menu_toggle {
+      padding-left: 40px;
       display: none;
       list-style: none;
+      
+      li{
+            margin-bottom: 1px;
+        }
       a{
+          display: block;
+          width: 200px;
+          color: $astringent-gray;
+          background-color: #fff;
           text-decoration: none; 
+          text-align: center;
+          padding: 5px;
+          font-weight: bold;
       }
     }
 }//header
@@ -239,7 +251,7 @@ header{
 }//sidebar
 
 #new_items{
-    
+    clear: both;
 }//new_items
 
 #popular_items{
